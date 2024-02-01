@@ -17,7 +17,7 @@ One of the most popular web proxies, used by over 5.7 million people in 2023.
     <li>Built-In Tab System</li>
     <li>Clean UI</li>
     <li>Inspect Element</li>
-    <li>Now.GG Suppot</li>
+    <li>Now.GG Support</li>
     <li>Built in Password Protection</li>
     <li>Geforce Now Support</li>
 </ul>
@@ -30,12 +30,13 @@ One of the most popular web proxies, used by over 5.7 million people in 2023.
 
 <a target="_blank" href="https://heroku.com/deploy/?template=https://github.com/interstellarnetwork/interstellar"><img alt="Deploy to Heroku" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/heroku.svg"></a>
 <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/interstellarnetwork/interstellar"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
-<a target="_blank" href="https://render.com/deploy?repo=https://github.com/InterstellarNetwork/IN-Render"><img alt="Deploy to Render" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg"></a>
 <a target="_blank" href="https://app.cyclic.sh/api/app/deploy/interstellarnetwork/Interstellar"><img alt="Deploy to Cyclic" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg"></a>
 
 ## Deployment Alternatives:
 
 For more deployment options join our [Discord Server](https://discord.gg/interstellar) for tons of different ways to deploy Interstellar.
+
+> Note: This includes methods of deploying to Render/OnRender.
 
 #### What happened to Replit Deployment?
 
@@ -50,12 +51,13 @@ As of January 1st 2024, Replit is [no longer free](https://blog.replit.com/hosti
    > Make sure you actually click the "Make public." button, or the proxy won't function properly.
 5. Access the deployed website from the ports tab.
 6. For subsequent uses in the same codespace, just run `npm run start`
+
 ### Solution for if there is no popup.
-1. Edit the ``index.js`` file and edit the **Port** to a different number, don't use 8080.
+
+1. Edit the `index.js` file and edit the **Port** to a different number, don't use 8080.
 2. Click Terminal, and paste `npm i && npm run start`.
 3. Go to the ports tab, Click Foward A Port, And type the port number.
 4. Right click Visibility and set Port Visibility to Public.
-
 
 ## Need Help with Deployment?
 
